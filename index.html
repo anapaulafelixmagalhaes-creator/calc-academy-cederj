@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f5f4ee">
+<meta name="description" content="Curso completo de LibreOffice Calc com 36 aulas, exercícios corrigidos, laboratório de fórmulas e simulados da AP2 CEDERJ.">
+<title>Calc Academy | Aprenda para a AP2</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/png" href="icon-192.png"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Ir direto ao conteúdo</a>
+<div class="layout">
+<aside class="sidebar" id="sidebar" aria-label="Menu do curso">
+  <a class="logo" href="#inicio" aria-label="Calc Academy, início"><span class="mark">∑</span><span class="logo-text">CALC<span>ACADEMY</span><small>LABORATÓRIO DE PLANILHAS</small></span></a>
+  <div class="sidebar-section">CENTRAL DE ESTUDOS</div>
+  <nav class="menu" id="menu">
+    <a data-page="inicio" href="#inicio"><span class="menu-icon">▤</span> Visão geral</a>
+    <a data-page="curso" href="#curso"><span class="menu-icon">▦</span> Todas as aulas</a>
+    <a data-page="laboratorio" href="#laboratorio"><span class="menu-icon">ƒ</span> Laboratório</a>
+    <a data-page="simulados" href="#simulados"><span class="menu-icon">◎</span> Simulados</a>
+    <a data-page="biblioteca" href="#biblioteca"><span class="menu-icon">▶</span> Biblioteca de vídeos</a>
+    <a data-page="fontes" href="#fontes"><span class="menu-icon">≡</span> Fontes & manual</a>
+  </nav>
+  <div class="sidebar-grow"></div>
+  <div class="side-progress">
+    <div class="eyebrow">SUA EVOLUÇÃO</div>
+    <div class="side-progress-n"><span id="side-count">0/36 aulas</span><span id="side-pct">0%</span></div>
+    <div class="progress-track"><div id="side-bar" class="progress-fill"></div></div>
+    <p>Seu avanço é guardado neste navegador.</p>
+  </div>
+  <a class="sidebar-link" href="https://graduacao.cederj.edu.br/course/view.php?id=1092" target="_blank" rel="noopener noreferrer">↗ Disciplina no CEDERJ</a>
+</aside>
+<div class="page">
+<header class="topbar">
+  <button class="icon-btn mobile-menu" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  <div class="top-loc"><span class="dot"></span> CEDERJ / INFORMÁTICA / CALC</div>
+  <div class="top-actions">
+    <button class="text-btn" id="font-decrease" aria-label="Diminuir tamanho do texto">A−</button>
+    <button class="text-btn" id="font-increase" aria-label="Aumentar tamanho do texto">A+</button>
+    <button class="icon-btn" id="theme-toggle" aria-label="Alternar modo escuro" title="Alternar tema">◐</button>
+  </div>
+</header>
+<main id="main" tabindex="-1"></main>
+<footer class="footer"><span>CALC ACADEMY © 2026 · PROJETO EDUCACIONAL INDEPENDENTE</span><span>Material autoral de estudo. Não é página oficial do CEDERJ.</span></footer>
+</div>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script>
+<script src="videos-extra.js"></script><script src="app.js"></script>
+<script>if("serviceWorker" in navigator && (location.protocol==="https:" || location.hostname==="localhost")){navigator.serviceWorker.register("./service-worker.js").catch(()=>{});}</script></body></html>
